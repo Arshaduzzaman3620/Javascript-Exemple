@@ -34,8 +34,14 @@ let  valueInNumber = Number(score);
 let isLoggedIn = 1
 
 let booleanIsLoggedIn = Boolean(isLoggedIn);
-console.log(booleanIsLoggedIn);
+// console.log(booleanIsLoggedIn);
 
 // 1=> true; 0 => false
 // "" => false
-// "John" => true 
+// "John" => true \\
+
+// *****************Operation*******************
+let value = 3
+let negvalue = -value
+console.log(negvalue); // Output: -3
+
