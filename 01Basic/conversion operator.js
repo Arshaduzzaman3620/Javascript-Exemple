@@ -15,10 +15,27 @@
 // console.log("5" - 2); // Output: 3 (string is coerced to a number)
 // console.log(true + 1); // Output: 2 (true is coerced to 1)
 
+//"33" => 33
+//"33abc" => NaN
+//"abc33" => NaN
+//"33.3" => 33.3
+//"33.3abc" => NaN
+//true => 1; false => 0
+
 
 let score ="33"
 
-console.log(typeof score );
+// console.log(typeof score );
 
 let  valueInNumber = Number(score);
-console.log(typeof valueInNumber);
+// console.log(typeof valueInNumber);
+
+
+let isLoggedIn = 1
+
+let booleanIsLoggedIn = Boolean(isLoggedIn);
+console.log(booleanIsLoggedIn);
+
+// 1=> true; 0 => false
+// "" => false
+// "John" => true 
