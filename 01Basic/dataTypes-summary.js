@@ -34,11 +34,38 @@ let date = new Date(); // Date      -> date and time object
 // ============================
 // typeof Operator Examples:
 // ============================
-console.log(typeof "hello"); // "string"
-console.log(typeof 123); // "number"
-console.log(typeof true); // "boolean"
-console.log(typeof undefined); // "undefined"
-console.log(typeof null); // "object" (this is a known JavaScript quirk)
-console.log(typeof {}); // "object"
-console.log(typeof []); // "object"
-console.log(typeof function () {}); // "function"
+// console.log(typeof "hello"); // "string"
+// console.log(typeof 123); // "number"
+// console.log(typeof true); // "boolean"
+// console.log(typeof undefined); // "undefined"
+// console.log(typeof null); // "object" (this is a known JavaScript quirk)
+// console.log(typeof {}); // "object"
+// console.log(typeof []); // "object"
+// console.log(typeof function () {}); // "function"
+
+
+// ============================
+// memory stack and heap memory
+// ============================
+// 1. Stack Memory
+// - Stores primitive data types (e.g., numbers, strings, booleans).
+let myYotubename = "https://www.youtube.com/@yotubena";
+
+// - Fast access and allocation.
+// - Limited size, automatically managed by JavaScript engine.
+// - Example:
+let a = 10; // Stored in stack memory
+let b = a; // Copies value, both 'a' and 'b' point to the same value in stack
+//
+// 2. Heap Memory
+// - Stores non-primitive data types (e.g., objects, arrays).
+// - Slower access and allocation.
+// - Larger size, managed by garbage collection.
+// - Example:
+let perSon = { name: "John", age: 30 }; // Stored in heap memory
+let person2 = person; // Both 'person' and 'person2' point to the same object in heap
+//
+// - Modifying 'person2' will affect 'person' because they reference the same object.
+// - Example:
+person2.age = 31;
+console.log(person.age); // Output: 31
