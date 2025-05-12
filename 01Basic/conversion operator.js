@@ -41,7 +41,50 @@ let booleanIsLoggedIn = Boolean(isLoggedIn);
 // "John" => true \\
 
 // *****************Operation*******************
-let value = 3
-let negvalue = -value
-console.log(negvalue); // Output: -3
+//THIS KIND OF OPERATION IS NOT RECOMMENDED
+// let value = 3
+// let negvalue = -value
+// console.log(negvalue); // Output: -3
 
+// console.log(true + 1); // Output: 2
+// console.log(true - 1); // Output: 0
+// console.log(+""); // Output: 0
+// console.log(+"0"); // Output: 0
+
+// let num1,num2,num3
+// num1 = num2 = num3 = 2 + 2
+
+
+// Prefix Increment and Decrement Operators
+let a = 5;
+let b = ++a; // Increment 'a' first, then assign to 'b'
+console.log(a); // Output: 6
+console.log(b); // Output: 6
+
+let c = 5;
+let d = --c; // Decrement 'c' first, then assign to 'd'
+console.log(c); // Output: 4
+console.log(d); // Output: 4
+
+// Prefix operators are evaluated before the value is used in an expression
+let x = 10;
+let y = ++x + 5; // 'x' is incremented to 11, then added to 5
+console.log(x); // Output: 11
+console.log(y); // Output: 16
+
+// Postfix Increment and Decrement Operators
+let p = 10;
+let q = p++; // Assign 'p' to 'q' first, then increment 'p'
+console.log(p); // Output: 11
+console.log(q); // Output: 10
+
+let r = 10;
+let s = r--; // Assign 'r' to 's' first, then decrement 'r'
+console.log(r); // Output: 9
+console.log(s); // Output: 10
+
+// Postfix operators are evaluated after the value is used in an expression
+let m = 15;
+let n = m++ + 5; // 'm' is added to 5 first, then incremented
+console.log(m); // Output: 16
+console.log(n); // Output: 20
