@@ -107,3 +107,10 @@ let clean = raw.trim(); // "Hello World!"
 //    - You want to span strings across multiple lines
 //    - You want cleaner, dynamic output
 //    - You use functions that return strings
+//    - You want to format strings with expressions
+//    - You want to create complex strings easily
+// ✔ Use string methods to manipulate and format strings
+// ✔ Use escape characters for special characters
+// ✔ Use trim() to remove whitespace from both ends of a string
+// ✔ Use split() to convert strings to arrays
+// ✔ Use join() to convert arrays back to strings
