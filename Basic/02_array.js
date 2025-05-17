@@ -13,7 +13,8 @@ const real_array = another_array.flat();
 let score 1 = 100;
 let score2 = 200;
 
-console.log(Array.o
-
+const scores = [score1, score2];
+const [first_score, second_score] = scores;
+// this is a destructuring array
 
 
