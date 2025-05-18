@@ -10,7 +10,6 @@ const real_array = another_array.flat();
 
 // flat is used to flatten the array and create a new array in easy way
 
-let score 1 = 100;
 let score2 = 200;
 
 const scores = [score1, score2];
