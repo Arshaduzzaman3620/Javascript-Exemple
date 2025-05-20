@@ -32,14 +32,13 @@ const users = [
 
 ]
 const  course ={
-  cousrsenaem :"this is course ",
+  cousrsename :"this is course ",
   price :"9999",
   couseInstructure:"hitesh"
 }
 // course.couseInstructure
 const {couseInstructure: instructor} = course
 
-console.log(instructor);
-
+console.log(instructor)
 
 
