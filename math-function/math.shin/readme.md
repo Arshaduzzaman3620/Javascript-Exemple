@@ -120,5 +120,5 @@ Output Range	Between -1 and 1
 Converts Degrees	Multiply by (Math.PI / 180)
 Usage	Animation, waves, simulations
 
-[image](https://github.com/user-attachments/assets/a5a689fd-ec5b-48c5-b682-acdeec32a047)
+
 
