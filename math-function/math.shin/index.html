@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Learn Math.sin() in JavaScript</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #f9f9f9;
+    }
+    h2 {
+      margin-top: 40px;
+      color: #333;
+    }
+    canvas {
+      border: 1px solid #ccc;
+      margin-bottom: 10px;
+    }
+    #fadingBox {
+      width: 100px;
+      height: 100px;
+      background: red;
+      margin-top: 10px;
+    }
+    button {
+      margin-top: 5px;
+      margin-bottom: 20px;
+      padding: 5px 15px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>📚 Learn Math.sin() in JavaScript</h1>
+
+  <!-- Sine calculator -->
+  <h2>1️⃣ Sine Calculator (Degrees to sin Value)</h2>
+  <input id="angleInput" type="number" placeholder="Enter angle in degrees">
+  <button onclick="calculateSineFromInput()">Calculate sin()</button>
+  <p id="result"></p>
+
+  <!-- Sine wave on canvas -->
+  <h2>2️⃣ Draw Static Sine Wave</h2>
+  <canvas id="sineCanvas" width="500" height="200"></canvas>
+  <button onclick="drawStaticSineWave()">Draw Sine Wave</button>
+
+  <!-- Animated motion -->
+  <h2>3️⃣ Animate Ball Using sin() and cos()</h2>
+  <canvas id="myCanvas" width="400" height="200"></canvas>
+  <button onclick="animateSineMotion()">Start Motion</button>
+
+  <!-- Opacity animation -->
+  <h2>4️⃣ Smooth Opacity Animation Using sin()</h2>
+  <div id="fadingBox"></div>
+  <button onclick="animateOpacity()">Start Fading</button>
+
+  <!-- JS functions -->
+  <script src="sin.js"></script>
+
+</body>
+</html>

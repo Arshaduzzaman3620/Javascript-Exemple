@@ -35,17 +35,13 @@ In programming, we often use it to model wave patterns, motion, and angles in ra
 
 ✅ Examples
 1. Basic usage:
-js
-Copy
-Edit
+
 console.log(Math.sin(0));             // 0
 console.log(Math.sin(Math.PI / 2));   // 1
 console.log(Math.sin(Math.PI));       // ~0 (very close to 0)
 console.log(Math.sin(3 * Math.PI / 2)); // -1
 2. Converting Degrees to Radians:
-js
-Copy
-Edit
+
 function sinDegrees(degrees) {
   let radians = degrees * (Math.PI / 180);
   return Math.sin(radians);
