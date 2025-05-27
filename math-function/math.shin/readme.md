@@ -91,9 +91,7 @@ Math.asin(x)	Inverse sine (returns radians)
 Math.PI	Value of π (~3.14159)
 
 🎮 Bonus: Animate a Sine Wave with Canvas
-html
-Copy
-Edit
+
 <canvas id="canvas" width="500" height="200"></canvas>
 <script>
   const ctx = document.getElementById('canvas').getContext('2d');
@@ -112,14 +110,7 @@ Edit
   }
   draw();
 </script>
-🧪 Practice Quiz
-What does Math.sin(0) return?
 
-How do you convert 90 degrees to radians?
-
-What is the expected output of Math.sin(Math.PI / 2)?
-
-What’s the sine of 180° in JavaScript? (Hint: Convert it first)
 
 ✅ Summary
 Key Concept	Details
