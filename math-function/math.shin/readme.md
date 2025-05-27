@@ -121,4 +121,7 @@ Converts Degrees	Multiply by (Math.PI / 180)
 Usage	Animation, waves, simulations
 
 
-![Screenshot 2025-05-27 204440](https://github.com/user-attachments/assets/ab0b10f4-f616-4816-ba22-e2631c76ad6f)
+attachments/assets/4374e921-acf5-405f-9dba-a46736aa734a)
+tachments/assets/bde40243-855a-433b-94b6-f4a506f0c0e6)
+
+
