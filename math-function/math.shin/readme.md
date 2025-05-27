@@ -20,16 +20,12 @@ JavaScript works in radians, not degrees.
 
 To convert degrees to radians:
 
-js
-Copy
-Edit
+
 radians = degrees * (Math.PI / 180);
 📐 What is Sine?
 In trigonometry, the sine of an angle in a right-angled triangle is:
 
-cpp
-Copy
-Edit
+
 sin(θ) = opposite / hypotenuse
 In programming, we often use it to model wave patterns, motion, and angles in radians.
 
@@ -63,16 +59,12 @@ Physics simulations
 Game development and graphics
 
 🎨 Visualizing the Sine Wave
-lua
-Copy
-Edit
+
     1 |       .-‘’‘-.       .-‘’‘-.
       |    .-’       ‘-. .-’       ‘-.
     0 |---’-----------’-----------’--->
      -1 |
-js
-Copy
-Edit
+
 for (let angle = 0; angle <= 360; angle += 30) {
   let radians = angle * (Math.PI / 180);
   let value = Math.sin(radians).toFixed(2);
@@ -81,21 +73,15 @@ for (let angle = 0; angle <= 360; angle += 30) {
 ⚠️ Common Mistakes
 ❌ Using degrees directly:
 
-js
-Copy
-Edit
+
 Math.sin(90); // WRONG — returns 0.893...
 ✅ Convert to radians:
 
-js
-Copy
-Edit
+
 Math.sin(90 * Math.PI / 180); // CORRECT — returns 1
 ❗ Expecting exact 0:
 
-js
-Copy
-Edit
+
 console.log(Math.sin(Math.PI)); // Not exactly 0 — small float error (~1.22e-16)
 📚 Related Math Functions
 Function	Description
