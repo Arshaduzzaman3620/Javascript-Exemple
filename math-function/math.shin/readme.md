@@ -142,3 +142,4 @@ Input Unit	Radians
 Output Range	Between -1 and 1
 Converts Degrees	Multiply by (Math.PI / 180)
 Usage	Animation, waves, simulations
+![image](https://github.com/user-attachments/assets/254e0c47-d7a7-4546-b22c-bd44043cb9bd)
