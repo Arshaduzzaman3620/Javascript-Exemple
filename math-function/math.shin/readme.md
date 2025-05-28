@@ -120,5 +120,5 @@ Output Range	Between -1 and 1
 Converts Degrees	Multiply by (Math.PI / 180)
 Usage	Animation, waves, simulations
 
-![alt text](image.png)
+
 
