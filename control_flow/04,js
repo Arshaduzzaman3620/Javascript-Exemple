@@ -1,0 +1,19 @@
+const myObject = {
+  js : "JavaScript",
+  cpp : "C++",
+  python : "Python",
+  rb : "Ruby",
+  java : "Java",
+  php : "PHP",
+}
+
+for (const key in myObject) {
+   console.log(`${key} the short cut ${myObject[key]}`);
+
+  }
+
+  const programming = ["JavaScript", "C++", "Python", "Ruby", "Java", "PHP"];
+for (const key in  programming) {
+  console.log();
+  
+}
